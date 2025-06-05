@@ -6,7 +6,7 @@ stages {
     steps {
       echo "building"
    }
-
+  }
   stage('Test') {
     steps {
       echo "testing"
@@ -20,4 +20,5 @@ stages {
     }
   }
 
+}
 }
